@@ -1,11 +1,11 @@
 .accordion-container {
-    background-color: #126900;
+    background-color: #CECE5A;
     color: #fff;
     height: 200px;
   }
   .accordion {
-    background-color: #4d3202;
-    color: #dbb0f5;
+    background-color: #FFE17B;
+    color: #FD8D14;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -22,7 +22,7 @@
   
   .accordion:after {
     content: '\1F862'; 
-    color: #dbb0f5;
+    color: #FD8D14;
     font-weight: bold;
     float: right;
     margin-left: 5px;
@@ -30,5 +30,5 @@
   
   .active:after {
     content: "\1F863";
-    color: #dbb0f5
+    color: #FD8D14;
   }

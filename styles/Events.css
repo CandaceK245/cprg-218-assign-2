@@ -56,7 +56,10 @@
     padding: 1rem;
   }
   
-  .header,
+  .header {
+    margin: 0;
+  }
   .subheader {
+    font-size: 1.0rem;
     margin: 0;
   }

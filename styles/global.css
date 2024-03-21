@@ -40,7 +40,10 @@ body {
     font-weight: 600;
   }
 
-  h5,
+  h5 {
+    font-family: 'Marvel', 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+  }
   h6,
   p {
     line-height: 1.1;
@@ -48,7 +51,7 @@ body {
   }
   
   
-  h5, h6 {
+   h6 {
     font-size: 1.25rem;
     font-weight: 600;
   }
@@ -118,8 +121,7 @@ body {
     align-items: center;
   }
   
-  
-  
+
   .footer-container {
     display: flex;
     background-color: #2b97fb64;

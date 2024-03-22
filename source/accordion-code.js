@@ -6,13 +6,9 @@ for (i = 0; i < acc.length; i++) {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
+      panel.style.maxHeight = null;      
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
     } 
   });
 }
-
-var date = new Date().getFullYear();
-
-document.getElementById("year").innerHTML = date;

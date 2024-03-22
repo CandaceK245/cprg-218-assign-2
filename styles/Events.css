@@ -30,7 +30,7 @@
   }
 
   /* Tablet */
-  @media  screen and (min-width: 842px) and (max-width: 1235px) {
+  @media  screen and (min-width: 842px) and (max-width: 1200px) {
     img {
         min-height: 16.375rem;
     }
@@ -43,12 +43,15 @@
   }
   
   /* Desktop */
-  @media screen and (min-width: 1235px) {
+  @media screen and (min-width: 1200px) {
     img {
       min-height: 16.375rem;
     }
     .card-container {
         flex-wrap: wrap;
+    }
+    .container {
+        max-width: none;
     }
   }
   
@@ -60,6 +63,6 @@
     margin: 0;
   }
   .subheader {
-    font-size: 1.0rem;
+    font-size: 1.0 rem;
     margin: 0;
   }

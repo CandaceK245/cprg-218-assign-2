@@ -1,7 +1,7 @@
 .accordion-container {
     background-color: #CECE5A;
-    color: #fff;
-    height: 200px;
+    color: #000000;
+    height: auto;
   }
   .accordion {
     background-color: #FFE17B;
@@ -31,4 +31,12 @@
   .active:after {
     content: "\1F863";
     color: #FD8D14;
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(249, 249, 249);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
   }

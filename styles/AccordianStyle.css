@@ -40,3 +40,8 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
+  h3 {
+    font-family: 'Ojuju',Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+  }

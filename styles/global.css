@@ -134,7 +134,7 @@ body {
   }
   
   .block {
-    padding: 18px;
+    padding: 16px;
   }
   
   .footer-block{
@@ -163,16 +163,32 @@ body {
     background-color: rgb(255, 0, 43);
   }
   
-  /* Video */
-  .video {
-
-    width: 560px;
-    height: 315px;
-    max-width: auto;
+  /* Footer Section responsive */
+  @media screen and (max-width: 842px) {
+    .map {
+        display: none;
+    }
+    .about-us{
+        max-width: 50%;
+    }
   }
-  .video-container {
-    display: flex;
-    justify-content: center;
-    background-color: #ffaf90; 
-    height: auto;
+
+  /* Tablet */
+  @media  screen and (min-width: 842px) and (max-width: 1200px) {
+   .map {
+        width: 600px;
+   }
+   .about-us {
+        max-width: 35%;
+   }
+  }
+  
+  /* Desktop */
+  @media screen and (min-width: 1200px) {
+    .map {
+        width: 600px;
+    }
+    .about-us {
+        max-width: 25%;
+    }
   }

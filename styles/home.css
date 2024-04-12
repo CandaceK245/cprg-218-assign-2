@@ -6,3 +6,17 @@ h3 {
     margin-block-start: .50px;
     margin-block-end: .50px
   }
+    /* Video */
+    .video {
+
+        width: 560px;
+        height: 315px;
+        max-width: auto;
+      }
+      .video-container {
+        display: flex;
+        justify-content: center;
+        background-color: #ffaf90; 
+        height: auto;
+      }
+  
